@@ -9,3 +9,4 @@ producer = KafkaProducer(
 def send_message(topic, message):
     producer.send(topic, message)
     producer.flush()
+
